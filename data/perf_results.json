@@ -1,0 +1,572 @@
+{
+  "status": "Finished",
+  "messages": [
+    {
+      "key": "Loading",
+      "value": "Finished"
+    },
+    {
+      "key": "Query",
+      "value": "average_frame_build_time_millis complex_layout_scroll_perf__timeline_summary "
+    },
+    {
+      "key": "Tiles",
+      "value": "1/1"
+    }
+  ],
+  "results": {
+    "dataframe": {
+      "traceset": {
+        ",arch=intel,branch=master,config=default,device_type=Pixel_7_Pro,device_version=none,host_type=linux,sub_result=average_frame_build_time_millis,test=complex_layout_scroll_perf__timeline_summary,": [
+          0.95821536,
+          0.9893487,
+          0.90734357,
+          0.9832974,
+          0.99671793,
+          1.0463282,
+          1.025559,
+          0.9367282,
+          0.9814718,
+          0.96554357,
+          0.9237062,
+          1.0274588,
+          1.0191547,
+          1.0002422,
+          0.9550205,
+          0.98321134,
+          1.0064175,
+          0.9843897,
+          0.9161436,
+          1.0753195,
+          0.98425776,
+          0.9895385,
+          0.9894769,
+          1.0339227,
+          1.0371443,
+          0.98935384,
+          1.0363538,
+          0.99807733,
+          0.97504616,
+          0.9137949,
+          0.9779487,
+          0.9970513,
+          1.0524615,
+          0.9018462,
+          0.98742783,
+          1.0139846,
+          1.0218872,
+          0.9907062,
+          0.98073846,
+          1.0177333,
+          0.9717026,
+          1.0324484,
+          1.0408248,
+          0.96272683,
+          1.0369586,
+          0.98558974,
+          0.98947424,
+          0.96641237,
+          0.96232307,
+          1.005232
+        ],
+        ",arch=intel,branch=master,config=default,device_type=mokey,device_version=none,host_type=linux,sub_result=average_frame_build_time_millis,test=complex_layout_scroll_perf__timeline_summary,": [
+          3.1743371,
+          3.1231885,
+          3.1761413,
+          3.1945853,
+          3.193548,
+          3.2197385,
+          3.204954,
+          3.0741265,
+          3.040337,
+          3.0099106,
+          3.037299,
+          2.9711907,
+          3.0682645,
+          3.0214393,
+          3.187454,
+          3.2534022,
+          2.9978323,
+          3.0477817,
+          2.9839718,
+          3.232537,
+          3.0237288,
+          3.1555886,
+          3.2469594,
+          3.0261364,
+          3.236214,
+          3.093046,
+          3.0390747,
+          3.1453793,
+          3.0604262,
+          3.2992046,
+          3.245551,
+          3.2465408,
+          2.9424462,
+          3.1104069,
+          2.9358883,
+          3.3164651,
+          3.0908287,
+          3.2816515,
+          3.0279887,
+          3.1910813,
+          3.1395428,
+          2.9966629,
+          3.0785942,
+          3.0631988,
+          3.1097772,
+          3.1765172,
+          3.172316,
+          3.01076,
+          2.9229426,
+          2.9827318
+        ]
+      },
+      "header": [
+        {
+          "offset": 2808060,
+          "timestamp": 1779857895,
+          "hash": "bfeef88821192c99d326e9741911b570a5d047e8",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Skia from f9db7748563e to fa944af10f91 (1 revision) (#187139)",
+          "url": "https://github.com/flutter/flutter/commit/bfeef88821192c99d326e9741911b570a5d047e8"
+        },
+        {
+          "offset": 2808061,
+          "timestamp": 1779858577,
+          "hash": "c5190fa1f77db2d32df438a5aa77a1518ba8cca1",
+          "author": "Brandon DeRosier <bdero@google.com>",
+          "message": "[Flutter GPU] Add explicit draw counts (#186639)",
+          "url": "https://github.com/flutter/flutter/commit/c5190fa1f77db2d32df438a5aa77a1518ba8cca1"
+        },
+        {
+          "offset": 2808062,
+          "timestamp": 1779861267,
+          "hash": "e2ef7d8deb07d2df7fde760f3bcbd5b789297b5f",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Dart SDK from 7dcea971af6b to f3db7b7d9801 (2 revisions) (#187144)",
+          "url": "https://github.com/flutter/flutter/commit/e2ef7d8deb07d2df7fde760f3bcbd5b789297b5f"
+        },
+        {
+          "offset": 2808063,
+          "timestamp": 1779888822,
+          "hash": "c8f2f166323e5de6fca079c4fca8e959e62fa7d4",
+          "author": "auto-submit[bot] <98614782+auto-submit[bot]@users.noreply.github.com>",
+          "message": "Reverts \"[Flutter GPU] Add explicit draw counts (#186639)\" (#187170)",
+          "url": "https://github.com/flutter/flutter/commit/c8f2f166323e5de6fca079c4fca8e959e62fa7d4"
+        },
+        {
+          "offset": 2808064,
+          "timestamp": 1779900909,
+          "hash": "f3adf2d6f02099093f3f8f06dc45974f02efb851",
+          "author": "Jason Simmons <jason-simmons@users.noreply.github.com>",
+          "message": "Add a tag to the Linux platform properties in .ci.yaml that specifies x64 CPUs (#187124)",
+          "url": "https://github.com/flutter/flutter/commit/f3adf2d6f02099093f3f8f06dc45974f02efb851"
+        },
+        {
+          "offset": 2808065,
+          "timestamp": 1779901155,
+          "hash": "06f656b518c16953be706dff374489cec3d24f59",
+          "author": "jesswrd <jesswon@google.com>",
+          "message": "Update CI with newer android sdk package (#187143)",
+          "url": "https://github.com/flutter/flutter/commit/06f656b518c16953be706dff374489cec3d24f59"
+        },
+        {
+          "offset": 2808066,
+          "timestamp": 1779901340,
+          "hash": "1750f1a41975bd101857c28fc952f1225903d06d",
+          "author": "Victoria Ashworth <15619084+vashworth@users.noreply.github.com>",
+          "message": "Stop prefetching Swift packages in pub get (#187113)",
+          "url": "https://github.com/flutter/flutter/commit/1750f1a41975bd101857c28fc952f1225903d06d"
+        },
+        {
+          "offset": 2808067,
+          "timestamp": 1779902094,
+          "hash": "c177d531d694a51d84f7111b8bc4c425442b1df5",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Packages from fc795e566e86 to 4b424d786b09 (4 revisions) (#187174)",
+          "url": "https://github.com/flutter/flutter/commit/c177d531d694a51d84f7111b8bc4c425442b1df5"
+        },
+        {
+          "offset": 2808068,
+          "timestamp": 1779905302,
+          "hash": "becb39948f2e9e0d12ea25e5fe098060f83a6a1c",
+          "author": "Robert Ancell <robert.ancell@canonical.com>",
+          "message": "Fix crash if FlView is destroyed during a draw. (#186848)",
+          "url": "https://github.com/flutter/flutter/commit/becb39948f2e9e0d12ea25e5fe098060f83a6a1c"
+        },
+        {
+          "offset": 2808069,
+          "timestamp": 1779909797,
+          "hash": "21c65665fc5354fe1afe1f5cc49fe1b83140edfa",
+          "author": "Kevin Moore <kevmoo@users.noreply.github.com>",
+          "message": "[web, tool] Support recompiling shaders and unify asset processing (2nd try) (#186902)",
+          "url": "https://github.com/flutter/flutter/commit/21c65665fc5354fe1afe1f5cc49fe1b83140edfa"
+        },
+        {
+          "offset": 2808070,
+          "timestamp": 1779914410,
+          "hash": "91fff865afe8fd6ee745b99762c8d98455161bb5",
+          "author": "flutter-pub-roller-bot <137456488+flutter-pub-roller-bot@users.noreply.github.com>",
+          "message": "Roll pub packages (#187191)",
+          "url": "https://github.com/flutter/flutter/commit/91fff865afe8fd6ee745b99762c8d98455161bb5"
+        },
+        {
+          "offset": 2808071,
+          "timestamp": 1779919629,
+          "hash": "32fab508d406af144971d15ebe7bce667261c060",
+          "author": "chunhtai <47866232+chunhtai@users.noreply.github.com>",
+          "message": "Fixes bug when changing accessibilityFocusBlockType doesn't update ch\u2026 (#186596)",
+          "url": "https://github.com/flutter/flutter/commit/32fab508d406af144971d15ebe7bce667261c060"
+        },
+        {
+          "offset": 2808072,
+          "timestamp": 1779921071,
+          "hash": "d18d128babad94d477d7fabc8f75eec26792dd66",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Skia from fa944af10f91 to f1b8ba877c07 (13 revisions) (#187194)",
+          "url": "https://github.com/flutter/flutter/commit/d18d128babad94d477d7fabc8f75eec26792dd66"
+        },
+        {
+          "offset": 2808073,
+          "timestamp": 1779921072,
+          "hash": "1013e7839a71d34e99471d09c005ac313d8e3972",
+          "author": "Brandon DeRosier <bdero@google.com>",
+          "message": "[Flutter GPU] Inject per-backend defines into shader bundle compilation (#187081)",
+          "url": "https://github.com/flutter/flutter/commit/1013e7839a71d34e99471d09c005ac313d8e3972"
+        },
+        {
+          "offset": 2808074,
+          "timestamp": 1779923351,
+          "hash": "d0d06b2df4c76077aaed6639e88a1bcf2331eab5",
+          "author": "Brandon DeRosier <bdero@google.com>",
+          "message": "[Flutter GPU] Add explicit draw counts (reland) (#187192)",
+          "url": "https://github.com/flutter/flutter/commit/d0d06b2df4c76077aaed6639e88a1bcf2331eab5"
+        },
+        {
+          "offset": 2808075,
+          "timestamp": 1779923608,
+          "hash": "7152eb536fda9fdba04c164ac8499b1e71987b08",
+          "author": "Kate Lovett <katelovett@google.com>",
+          "message": "Disable analyzer (#187205)",
+          "url": "https://github.com/flutter/flutter/commit/7152eb536fda9fdba04c164ac8499b1e71987b08"
+        },
+        {
+          "offset": 2808076,
+          "timestamp": 1779923608,
+          "hash": "fe96572516b6278b9dde0cd138c6f664ca54520f",
+          "author": "Brandon DeRosier <bdero@google.com>",
+          "message": "[Impeller] Add block-compressed texture format support (BC, ETC2, ASTC) (#187077)",
+          "url": "https://github.com/flutter/flutter/commit/fe96572516b6278b9dde0cd138c6f664ca54520f"
+        },
+        {
+          "offset": 2808077,
+          "timestamp": 1779926354,
+          "hash": "451803e0619cbb2c29b9f32f77d5a49746237c6b",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Fuchsia Linux SDK from k9EizfEGJO4WwQN9-... to SBpmmPxqx3lAvGojE... (#187211)",
+          "url": "https://github.com/flutter/flutter/commit/451803e0619cbb2c29b9f32f77d5a49746237c6b"
+        },
+        {
+          "offset": 2808078,
+          "timestamp": 1779931108,
+          "hash": "7285f2f8156f16dbcb2553acb20d44f47d869272",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Skia from f1b8ba877c07 to 32acea791248 (3 revisions) (#187220)",
+          "url": "https://github.com/flutter/flutter/commit/7285f2f8156f16dbcb2553acb20d44f47d869272"
+        },
+        {
+          "offset": 2808079,
+          "timestamp": 1779931839,
+          "hash": "b2e3cc41fa7e8626e95a30f7f8a5440af9224600",
+          "author": "Kate Lovett <katelovett@google.com>",
+          "message": "Revert \"[pubspec] Bump Dart SDK constraint to ^3.13.0 (#186957)\" (#187209)",
+          "url": "https://github.com/flutter/flutter/commit/b2e3cc41fa7e8626e95a30f7f8a5440af9224600"
+        },
+        {
+          "offset": 2808080,
+          "timestamp": 1779973078,
+          "hash": "621f035616132d8dac5dd9f8d7792c1183f35690",
+          "author": "Chris Bracken <chris@bracken.jp>",
+          "message": "[iOS] Eliminate strong retain cycle from VSyncClient (#187164)",
+          "url": "https://github.com/flutter/flutter/commit/621f035616132d8dac5dd9f8d7792c1183f35690"
+        },
+        {
+          "offset": 2808081,
+          "timestamp": 1779977253,
+          "hash": "e70534db5a4460d01de2c2575ece049572625526",
+          "author": "gaaclarke <30870216+gaaclarke@users.noreply.github.com>",
+          "message": "Linux glyph gamma correction (#187122)",
+          "url": "https://github.com/flutter/flutter/commit/e70534db5a4460d01de2c2575ece049572625526"
+        },
+        {
+          "offset": 2808082,
+          "timestamp": 1779977368,
+          "hash": "4aedd37005c065c27e3de2b19c99a530931f56b1",
+          "author": "Brandon DeRosier <bdero@google.com>",
+          "message": "[Flutter GPU] Add r32Float and remove Apple-only XR pixel formats (#187069)",
+          "url": "https://github.com/flutter/flutter/commit/4aedd37005c065c27e3de2b19c99a530931f56b1"
+        },
+        {
+          "offset": 2808083,
+          "timestamp": 1779977474,
+          "hash": "3fb2fe0823af7e170ec87b647eebeb1af0b88d69",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Skia from 32acea791248 to a38708fb7926 (1 revision) (#187221)",
+          "url": "https://github.com/flutter/flutter/commit/3fb2fe0823af7e170ec87b647eebeb1af0b88d69"
+        },
+        {
+          "offset": 2808084,
+          "timestamp": 1779984403,
+          "hash": "75780a8ac95162291dfa03078873e0ba57d10bf1",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Dart SDK from f3db7b7d9801 to 082191101fcc (8 revisions) (#187235)",
+          "url": "https://github.com/flutter/flutter/commit/75780a8ac95162291dfa03078873e0ba57d10bf1"
+        },
+        {
+          "offset": 2808085,
+          "timestamp": 1779984912,
+          "hash": "fd830ec0f3ad20a5d5ec42467d0714b8038b3f1b",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Packages from 4b424d786b09 to 10cbdc57b0ce (3 revisions) (#187238)",
+          "url": "https://github.com/flutter/flutter/commit/fd830ec0f3ad20a5d5ec42467d0714b8038b3f1b"
+        },
+        {
+          "offset": 2808086,
+          "timestamp": 1779986233,
+          "hash": "ed53474d4c1f110db439c691735d9259b7d89cba",
+          "author": "Mouad Debbar <mdebbar@google.com>",
+          "message": "[web] Fix WebParagraph locales test (#186813)",
+          "url": "https://github.com/flutter/flutter/commit/ed53474d4c1f110db439c691735d9259b7d89cba"
+        },
+        {
+          "offset": 2808087,
+          "timestamp": 1779986593,
+          "hash": "d861786b0af029f132a052e8a5443a9310bdd474",
+          "author": "Vincent Ong <mvincentong@gmail.com>",
+          "message": "Clarify lazy scroll extent docs (#186864)",
+          "url": "https://github.com/flutter/flutter/commit/d861786b0af029f132a052e8a5443a9310bdd474"
+        },
+        {
+          "offset": 2808088,
+          "timestamp": 1779988110,
+          "hash": "543b75f181bb2c57558da2db33362eb9a9eb6093",
+          "author": "gaaclarke <30870216+gaaclarke@users.noreply.github.com>",
+          "message": "Turned on impeller by default on macos (#186546)",
+          "url": "https://github.com/flutter/flutter/commit/543b75f181bb2c57558da2db33362eb9a9eb6093"
+        },
+        {
+          "offset": 2808089,
+          "timestamp": 1779989101,
+          "hash": "cbe057e187aaf31a0c8e8d17ebeda3795188a593",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Skia from a38708fb7926 to 5493e4c144cd (7 revisions) (#187241)",
+          "url": "https://github.com/flutter/flutter/commit/cbe057e187aaf31a0c8e8d17ebeda3795188a593"
+        },
+        {
+          "offset": 2808090,
+          "timestamp": 1779991761,
+          "hash": "f84bd039a0692e5cab5383a8de29bc41151a4dfd",
+          "author": "Camille Simon <43054281+camsim99@users.noreply.github.com>",
+          "message": "[Android] Reset system UI visibility flags when setting edge-to-edge mode (#187207)",
+          "url": "https://github.com/flutter/flutter/commit/f84bd039a0692e5cab5383a8de29bc41151a4dfd"
+        },
+        {
+          "offset": 2808091,
+          "timestamp": 1779992251,
+          "hash": "1d9d6370db5d013b5e8964c5b0c0e5b8bd27725c",
+          "author": "Brandon DeRosier <bdero@google.com>",
+          "message": "[Impeller] Support instanced rendering across all backends (#186653)",
+          "url": "https://github.com/flutter/flutter/commit/1d9d6370db5d013b5e8964c5b0c0e5b8bd27725c"
+        },
+        {
+          "offset": 2808092,
+          "timestamp": 1779992900,
+          "hash": "7d4cfdbf80aca462232954eaafe5468661bbf6dd",
+          "author": "Lo\u00efc Sharma <737941+loic-sharma@users.noreply.github.com>",
+          "message": "Improve SizedBox's docs (#187208)",
+          "url": "https://github.com/flutter/flutter/commit/7d4cfdbf80aca462232954eaafe5468661bbf6dd"
+        },
+        {
+          "offset": 2808093,
+          "timestamp": 1780000914,
+          "hash": "0ec458a9a17ecb84863e1aafdce23c6fec3a0fc9",
+          "author": "Jason Simmons <jason-simmons@users.noreply.github.com>",
+          "message": "Update the Curl CIPD package in .ci.yaml to version 8.20.0 (#187133)",
+          "url": "https://github.com/flutter/flutter/commit/0ec458a9a17ecb84863e1aafdce23c6fec3a0fc9"
+        },
+        {
+          "offset": 2808094,
+          "timestamp": 1780000916,
+          "hash": "91d6ef69427fedb41a8b5f716173a487167efd9b",
+          "author": "gaaclarke <30870216+gaaclarke@users.noreply.github.com>",
+          "message": "Shares opengles golden context (#187243)",
+          "url": "https://github.com/flutter/flutter/commit/91d6ef69427fedb41a8b5f716173a487167efd9b"
+        },
+        {
+          "offset": 2808095,
+          "timestamp": 1780000970,
+          "hash": "6d39d934ffba5ab0811324aa4d44e3464a388b83",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Skia from 5493e4c144cd to fcfe5975c945 (3 revisions) (#187256)",
+          "url": "https://github.com/flutter/flutter/commit/6d39d934ffba5ab0811324aa4d44e3464a388b83"
+        },
+        {
+          "offset": 2808096,
+          "timestamp": 1780001104,
+          "hash": "2fabeff7f303ae39f9989a8466d385c7c71d6b54",
+          "author": "Nadeem Iqbal <mr_nadeem_iqbal@yahoo.com>",
+          "message": "docs: Document MediaQueryData.alwaysUse24HourFormat on macOS, Windows, Linux, web (#160664) (#186642)",
+          "url": "https://github.com/flutter/flutter/commit/2fabeff7f303ae39f9989a8466d385c7c71d6b54"
+        },
+        {
+          "offset": 2808097,
+          "timestamp": 1780001219,
+          "hash": "1b90430eb0c5dd7122428795a9e7207e852317d7",
+          "author": "Sam Rawlins <srawlins@google.com>",
+          "message": "[flutter_tools] Use super parameters in missed spots (#186197)",
+          "url": "https://github.com/flutter/flutter/commit/1b90430eb0c5dd7122428795a9e7207e852317d7"
+        },
+        {
+          "offset": 2808098,
+          "timestamp": 1780005851,
+          "hash": "ba09ef4148bfc43bc24a0ed205ae063f9243adae",
+          "author": "Mohellebi Abdessalem <116356835+AbdeMohlbi@users.noreply.github.com>",
+          "message": "document that the default Key is null and explain proper usage in list diffing (#185197)",
+          "url": "https://github.com/flutter/flutter/commit/ba09ef4148bfc43bc24a0ed205ae063f9243adae"
+        },
+        {
+          "offset": 2808099,
+          "timestamp": 1780006089,
+          "hash": "06523e58ed906e73e3e5cd95112901f2ee39a363",
+          "author": "Vincent Ong <mvincentong@gmail.com>",
+          "message": "Clarify route transition animations (#186552)",
+          "url": "https://github.com/flutter/flutter/commit/06523e58ed906e73e3e5cd95112901f2ee39a363"
+        },
+        {
+          "offset": 2808100,
+          "timestamp": 1780007667,
+          "hash": "d9f91805bbce6543bc23a429782d6d9920f6f12b",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Dart SDK from 082191101fcc to 683322426411 (2 revisions) (#187270)",
+          "url": "https://github.com/flutter/flutter/commit/d9f91805bbce6543bc23a429782d6d9920f6f12b"
+        },
+        {
+          "offset": 2808101,
+          "timestamp": 1780010937,
+          "hash": "c7b914ad9a6a15edf04ffcd00daea33ad478c657",
+          "author": "walley892 <evanwall@buffalo.edu>",
+          "message": "Handle complex RSE rendering in the uber SDF pipeline (#186434)",
+          "url": "https://github.com/flutter/flutter/commit/c7b914ad9a6a15edf04ffcd00daea33ad478c657"
+        },
+        {
+          "offset": 2808102,
+          "timestamp": 1780013281,
+          "hash": "14c9bba45101aa5d06a8f601bd4e6e512844b735",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Skia from fcfe5975c945 to f93ed13d77fb (4 revisions) (#187273)",
+          "url": "https://github.com/flutter/flutter/commit/14c9bba45101aa5d06a8f601bd4e6e512844b735"
+        },
+        {
+          "offset": 2808103,
+          "timestamp": 1780013529,
+          "hash": "becfd1a4e7f4e4740803950b53e86aa9d9e894c9",
+          "author": "LongCatIsLooong <31859944+LongCatIsLooong@users.noreply.github.com>",
+          "message": "Add/remove overlay child RenderObject from the tree in `attach`/`detach` (#186564)",
+          "url": "https://github.com/flutter/flutter/commit/becfd1a4e7f4e4740803950b53e86aa9d9e894c9"
+        },
+        {
+          "offset": 2808104,
+          "timestamp": 1780013532,
+          "hash": "73ac4622e7027f7aac5ffa13276f3b7019597750",
+          "author": "Brandon DeRosier <bdero@google.com>",
+          "message": "[Impeller] Remove the y_coord_scale Y-flip plumbing (#187224)",
+          "url": "https://github.com/flutter/flutter/commit/73ac4622e7027f7aac5ffa13276f3b7019597750"
+        },
+        {
+          "offset": 2808105,
+          "timestamp": 1780017745,
+          "hash": "cf1389d89a57b8ec64f80abb5964702bf34acb78",
+          "author": "Burak Karahan <burak.karahan@mail.ru>",
+          "message": "Remove Material import from sliver tree rendering test (#187000)",
+          "url": "https://github.com/flutter/flutter/commit/cf1389d89a57b8ec64f80abb5964702bf34acb78"
+        },
+        {
+          "offset": 2808106,
+          "timestamp": 1780024241,
+          "hash": "ff9dc39f8788b325a7fb8fb1e3d86d2673667136",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Fuchsia Linux SDK from SBpmmPxqx3lAvGojE... to jMR_VXQi07kAk8vbR... (#187279)",
+          "url": "https://github.com/flutter/flutter/commit/ff9dc39f8788b325a7fb8fb1e3d86d2673667136"
+        },
+        {
+          "offset": 2808107,
+          "timestamp": 1780025908,
+          "hash": "eb9b7d079011cab9376ef03092577dd184bd3480",
+          "author": "Kevin Moore <kevmoo@users.noreply.github.com>",
+          "message": "[web_ui] Optimize skwasm text layout and path decoding to eliminate dynamic boxing churn under Wasm (#186978)",
+          "url": "https://github.com/flutter/flutter/commit/eb9b7d079011cab9376ef03092577dd184bd3480"
+        },
+        {
+          "offset": 2808108,
+          "timestamp": 1780043370,
+          "hash": "de387202e9be2c610491c8421cc573b00e27aec9",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Skia from f93ed13d77fb to 47155534833e (4 revisions) (#187291)",
+          "url": "https://github.com/flutter/flutter/commit/de387202e9be2c610491c8421cc573b00e27aec9"
+        },
+        {
+          "offset": 2808109,
+          "timestamp": 1780060654,
+          "hash": "b05a9d7488655f18504327080d697d0a80c7c610",
+          "author": "engine-flutter-autoroll <engine-flutter-autoroll@skia.org>",
+          "message": "Roll Skia from 47155534833e to d9d6b440c4e7 (1 revision) (#187301)",
+          "url": "https://github.com/flutter/flutter/commit/b05a9d7488655f18504327080d697d0a80c7c610"
+        }
+      ],
+      "paramset": {
+        "arch": [
+          "intel"
+        ],
+        "branch": [
+          "master"
+        ],
+        "config": [
+          "default"
+        ],
+        "device_type": [
+          "Pixel_7_Pro",
+          "mokey"
+        ],
+        "device_version": [
+          "none"
+        ],
+        "host_type": [
+          "linux"
+        ],
+        "sub_result": [
+          "average_frame_build_time_millis"
+        ],
+        "test": [
+          "complex_layout_scroll_perf__timeline_summary"
+        ]
+      },
+      "skip": 0,
+      "traceMetadata": [
+        {
+          "traceid": ",arch=intel,branch=master,config=default,device_type=mokey,device_version=none,host_type=linux,sub_result=average_frame_build_time_millis,test=complex_layout_scroll_perf__timeline_summary,",
+          "commitLinks": {}
+        },
+        {
+          "traceid": ",arch=intel,branch=master,config=default,device_type=Pixel_7_Pro,device_version=none,host_type=linux,sub_result=average_frame_build_time_millis,test=complex_layout_scroll_perf__timeline_summary,",
+          "commitLinks": {}
+        }
+      ]
+    },
+    "skps": [],
+    "msg": "",
+    "display_mode": "display_plot",
+    "anomalymap": null
+  },
+  "url": "/_/status/5d9e3a62-a37d-485f-af77-d3226e4b329a"
+}
